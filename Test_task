@@ -25,7 +25,7 @@ public class DocumentManager {
      * @return saved document
      */
 
-    private final Map<String, Document> documentStore = new ConcurrentHashMap<>();
+    private final Map<String, Document> documentStore = new HashMap<>();
     
 
     public Document save(Document document) {
